@@ -1,0 +1,13 @@
+{
+  "exp_id": "T05_mixup",
+  "backbone": "convnext_tiny",
+  "seed": 0,
+  "best_epoch": 10,
+  "macro_f1": 0.9694901764483236,
+  "top1": 0.9768637532133676,
+  "params_m": 27.827049,
+  "gmacs": 4.454808576,
+  "train_seconds": 863.6106057550005,
+  "seconds_per_epoch": 69.69022420874983,
+  "checkpoint": "runs/T05_mixup/seed0/best.pt"
+}

@@ -1,0 +1,13 @@
+{
+  "exp_id": "T07_focal",
+  "backbone": "convnext_tiny",
+  "seed": 0,
+  "best_epoch": 10,
+  "macro_f1": 0.9690111793152423,
+  "top1": 0.9765781205369894,
+  "params_m": 27.827049,
+  "gmacs": 4.454808576,
+  "train_seconds": 838.3647462479994,
+  "seconds_per_epoch": 67.64011131941668,
+  "checkpoint": "runs/T07_focal/seed0/best.pt"
+}

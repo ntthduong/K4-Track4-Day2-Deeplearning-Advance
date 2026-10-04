@@ -12,3 +12,14 @@ __pycache__/
 .ipynb_checkpoints/
 runs/
 eval_out/
+# Local downloads, builders and temporary test dependencies
+outputs/
+tmphu83os66/
+kaggle/*.jpg
+# Keep experiment evidence in a student's submission; weights stay ignored above.
+!submissions/*/runs/
+!submissions/*/runs/**/
+!submissions/*/runs/**/*.json
+!submissions/*/runs/**/*.csv
+!submissions/*/eval_out/
+!submissions/*/eval_out/**

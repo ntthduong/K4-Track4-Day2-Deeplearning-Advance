@@ -1,0 +1,104 @@
+{
+  "predictions": [
+    {
+      "file": "predictions\\F01_seed0_test.csv",
+      "n": 3507,
+      "labels_checked": true
+    },
+    {
+      "file": "predictions\\F01_seed0_val.csv",
+      "n": 3501,
+      "labels_checked": true
+    },
+    {
+      "file": "predictions\\F01_seed1_test.csv",
+      "n": 3507,
+      "labels_checked": true
+    },
+    {
+      "file": "predictions\\F01_seed1_val.csv",
+      "n": 3501,
+      "labels_checked": true
+    },
+    {
+      "file": "predictions\\F01_seed2_test.csv",
+      "n": 3507,
+      "labels_checked": true
+    },
+    {
+      "file": "predictions\\F01_seed2_val.csv",
+      "n": 3501,
+      "labels_checked": true
+    },
+    {
+      "file": "predictions\\T00_final_seed0_test.csv",
+      "n": 3507,
+      "labels_checked": true
+    },
+    {
+      "file": "predictions\\T00_final_seed0_val.csv",
+      "n": 3501,
+      "labels_checked": true
+    },
+    {
+      "file": "predictions\\T00_final_seed1_test.csv",
+      "n": 3507,
+      "labels_checked": true
+    },
+    {
+      "file": "predictions\\T00_final_seed1_val.csv",
+      "n": 3501,
+      "labels_checked": true
+    },
+    {
+      "file": "predictions\\T00_final_seed2_test.csv",
+      "n": 3507,
+      "labels_checked": true
+    },
+    {
+      "file": "predictions\\T00_final_seed2_val.csv",
+      "n": 3501,
+      "labels_checked": true
+    }
+  ],
+  "recorded_metrics_match": true,
+  "official_eval_unchanged": "1210f3c7ca1cb9b4488383f1ceeaa139bfdf5c683694b300f6c55b6b9cdde28e",
+  "stats": {
+    "F01": {
+      "macro_f1": [
+        0.9715119767564774,
+        0.0011894789112007328
+      ],
+      "top1": [
+        0.9777587681779298,
+        0.0007544201058068187
+      ],
+      "ece": [
+        0.007030305998479172,
+        0.0011036106444718002
+      ],
+      "balanced_acc": [
+        0.975905365673215,
+        0.0024025731212906896
+      ]
+    },
+    "T00_final": {
+      "macro_f1": [
+        0.9680031394161385,
+        0.0005658266770432415
+      ],
+      "top1": [
+        0.975002376199981,
+        0.0012857855012326671
+      ],
+      "ece": [
+        0.012743141602509377,
+        0.0016133576745688092
+      ],
+      "balanced_acc": [
+        0.9715283411349915,
+        0.00393082888157319
+      ]
+    }
+  }
+}

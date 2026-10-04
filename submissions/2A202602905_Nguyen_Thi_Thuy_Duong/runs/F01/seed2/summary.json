@@ -1,0 +1,13 @@
+{
+  "exp_id": "F01",
+  "backbone": "convnext_tiny",
+  "seed": 2,
+  "best_epoch": 11,
+  "macro_f1": 0.9731229059524331,
+  "top1": 0.9788631819480148,
+  "params_m": 27.827049,
+  "gmacs": 4.454808576,
+  "train_seconds": 853.1761410520012,
+  "seconds_per_epoch": 68.85609597025025,
+  "checkpoint": "runs/F01/seed2/best.pt"
+}

@@ -1,0 +1,13 @@
+{
+  "exp_id": "T03_color",
+  "backbone": "convnext_tiny",
+  "seed": 0,
+  "best_epoch": 10,
+  "macro_f1": 0.9683336741213994,
+  "top1": 0.976006855184233,
+  "params_m": 27.827049,
+  "gmacs": 4.454808576,
+  "train_seconds": 944.1434988380001,
+  "seconds_per_epoch": 76.299463629,
+  "checkpoint": "runs/T03_color/seed0/best.pt"
+}

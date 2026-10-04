@@ -1,0 +1,13 @@
+{
+  "exp_id": "T09_ema",
+  "backbone": "convnext_tiny",
+  "seed": 0,
+  "best_epoch": 10,
+  "macro_f1": 0.967071669240107,
+  "top1": 0.9751499571550986,
+  "params_m": 27.827049,
+  "gmacs": 4.454808576,
+  "train_seconds": 853.1729400929989,
+  "seconds_per_epoch": 68.68312701258326,
+  "checkpoint": "runs/T09_ema/seed0/best.pt"
+}

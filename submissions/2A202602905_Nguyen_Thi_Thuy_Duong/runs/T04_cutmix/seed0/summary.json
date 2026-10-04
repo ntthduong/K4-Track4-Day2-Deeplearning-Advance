@@ -1,0 +1,13 @@
+{
+  "exp_id": "T04_cutmix",
+  "backbone": "convnext_tiny",
+  "seed": 0,
+  "best_epoch": 10,
+  "macro_f1": 0.9670663056647538,
+  "top1": 0.9740074264495858,
+  "params_m": 27.827049,
+  "gmacs": 4.454808576,
+  "train_seconds": 858.0245900609998,
+  "seconds_per_epoch": 69.21918449266666,
+  "checkpoint": "runs/T04_cutmix/seed0/best.pt"
+}

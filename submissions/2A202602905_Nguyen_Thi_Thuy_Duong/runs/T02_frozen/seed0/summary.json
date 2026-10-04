@@ -1,0 +1,13 @@
+{
+  "exp_id": "T02_frozen",
+  "backbone": "convnext_tiny",
+  "seed": 0,
+  "best_epoch": 11,
+  "macro_f1": 0.8505825986132742,
+  "top1": 0.8811768066266781,
+  "params_m": 27.827049,
+  "gmacs": 4.454808576,
+  "train_seconds": 543.374901123,
+  "seconds_per_epoch": 43.24605209683335,
+  "checkpoint": "runs/T02_frozen/seed0/best.pt"
+}

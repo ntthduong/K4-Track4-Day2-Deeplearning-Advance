@@ -1,0 +1,340 @@
+[{"stream_name":"stderr","time":6.761095184,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.76114029,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.761147246,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.761154306,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.342652401,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.342695369,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.342699619,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.342702616,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":30.067607671,"data":"torch 2.11.0+cu128 timm 1.0.29\n"}
+,{"stream_name":"stdout","time":30.069295319,"data":"GPU: ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":30.069333376,"data":"Implementation: /kaggle/working/day2_lab_code\n"}
+,{"stream_name":"stdout","time":223.84264208,"data":"{'n': {'train': 10501, 'val': 3501, 'test': 3507}, 'per_class': {'train': {0: 675, 1: 637, 2: 618, 3: 613, 4: 637, 5: 605, 6: 644, 7: 609, 8: 5463}, 'val': {0: 225, 1: 213, 2: 206, 3: 204, 4: 212, 5: 202, 6: 215, 7: 203, 8: 1821}, 'test': {0: 226, 1: 213, 2: 207, 3: 205, 4: 213, 5: 202, 6: 215, 7: 204, 8: 1822}}, 'overlap': {'train/val': 0, 'train/test': 0, 'val/test': 0}}\n"}
+,{"stream_name":"stdout","time":223.842700101,"data":"Images: /kaggle/input/datasets/ntthduong/k4-track4-day2-deepweeds-images Labels: /kaggle/input/notebooks/ntthduong/k4-track4-day2-deepweeds-lab/data/labels\n"}
+,{"stream_name":"stderr","time":228.188871817,"data":"test_cli_types (test_core.CoreTests.test_cli_types) ... \n"}
+,{"stream_name":"stderr","time":228.20074663,"data":"test_cli_types (test_core.CoreTests.test_cli_types) ... ok\n"}
+,{"stream_name":"stderr","time":228.2007746,"data":"\n"}
+,{"stream_name":"stderr","time":228.200780725,"data":"ok\n"}
+,{"stream_name":"stderr","time":228.201592929,"data":"test_cutmix_lambda_matches_actual_area (test_core.CoreTests.test_cutmix_lambda_matches_actual_area) ... \n"}
+,{"stream_name":"stderr","time":228.34260851,"data":"test_cutmix_lambda_matches_actual_area (test_core.CoreTests.test_cutmix_lambda_matches_actual_area) ... ok\n"}
+,{"stream_name":"stderr","time":228.342635405,"data":"\n"}
+,{"stream_name":"stderr","time":228.342641131,"data":"ok\n"}
+,{"stream_name":"stderr","time":228.343444947,"data":"test_focal_zero_and_smoothing_zero_equal_ce (test_core.CoreTests.test_focal_zero_and_smoothing_zero_equal_ce) ... \n"}
+,{"stream_name":"stderr","time":228.385744026,"data":"test_focal_zero_and_smoothing_zero_equal_ce (test_core.CoreTests.test_focal_zero_and_smoothing_zero_equal_ce) ... ok\n"}
+,{"stream_name":"stderr","time":228.385765492,"data":"\n"}
+,{"stream_name":"stderr","time":228.385771868,"data":"ok\n"}
+,{"stream_name":"stderr","time":228.387155725,"data":"test_fusion_preserves_output_and_original (test_core.CoreTests.test_fusion_preserves_output_and_original) ... \n"}
+,{"stream_name":"stderr","time":228.528322377,"data":"test_fusion_preserves_output_and_original (test_core.CoreTests.test_fusion_preserves_output_and_original) ... ok\n"}
+,{"stream_name":"stderr","time":228.528347731,"data":"\n"}
+,{"stream_name":"stderr","time":228.528352172,"data":"ok\n"}
+,{"stream_name":"stderr","time":228.529276424,"data":"test_parameter_groups_cover_once_and_exclude_bias_decay (test_core.CoreTests.test_parameter_groups_cover_once_and_exclude_bias_decay) ... \n"}
+,{"stream_name":"stderr","time":228.531879995,"data":"test_parameter_groups_cover_once_and_exclude_bias_decay (test_core.CoreTests.test_parameter_groups_cover_once_and_exclude_bias_decay) ... ok\n"}
+,{"stream_name":"stderr","time":228.531895955,"data":"\n"}
+,{"stream_name":"stderr","time":228.53189955,"data":"ok\n"}
+,{"stream_name":"stderr","time":228.532819519,"data":"test_temperature_does_not_change_argmax_and_reduces_nll (test_core.CoreTests.test_temperature_does_not_change_argmax_and_reduces_nll) ... \n"}
+,{"stream_name":"stderr","time":228.549945591,"data":"test_temperature_does_not_change_argmax_and_reduces_nll (test_core.CoreTests.test_temperature_does_not_change_argmax_and_reduces_nll) ... ok\n"}
+,{"stream_name":"stderr","time":228.54996884,"data":"\n"}
+,{"stream_name":"stderr","time":228.54997354099999,"data":"ok\n"}
+,{"stream_name":"stderr","time":228.54997726,"data":"test_training_updates_head_and_keeps_frozen_bn (test_core.CoreTests.test_training_updates_head_and_keeps_frozen_bn) ... \n"}
+,{"stream_name":"stderr","time":228.614157673,"data":"test_training_updates_head_and_keeps_frozen_bn (test_core.CoreTests.test_training_updates_head_and_keeps_frozen_bn) ... ok\n"}
+,{"stream_name":"stderr","time":228.614176552,"data":"\n"}
+,{"stream_name":"stderr","time":228.614180709,"data":"ok\n"}
+,{"stream_name":"stderr","time":228.615475059,"data":"test_weight_normalization_and_tta (test_core.CoreTests.test_weight_normalization_and_tta) ... \n"}
+,{"stream_name":"stderr","time":228.621677559,"data":"test_weight_normalization_and_tta (test_core.CoreTests.test_weight_normalization_and_tta) ... ok\n"}
+,{"stream_name":"stderr","time":228.621692406,"data":"\n"}
+,{"stream_name":"stderr","time":228.621696572,"data":"ok\n"}
+,{"stream_name":"stderr","time":228.622234259,"data":"\n"}
+,{"stream_name":"stderr","time":228.62225952,"data":"\n"}
+,{"stream_name":"stderr","time":228.622264261,"data":"\n"}
+,{"stream_name":"stderr","time":228.623255523,"data":"----------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":228.623274609,"data":"Ran 8 tests in 0.433s\n"}
+,{"stream_name":"stderr","time":228.623278821,"data":"\n"}
+,{"stream_name":"stderr","time":228.623282181,"data":"OK\n"}
+,{"stream_name":"stderr","time":228.623327511,"data":"\n"}
+,{"stream_name":"stderr","time":228.623331713,"data":"----------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":228.62333548,"data":"Ran 8 tests in 0.433s\n"}
+,{"stream_name":"stderr","time":228.62333908,"data":"\n"}
+,{"stream_name":"stderr","time":228.623342318,"data":"OK\n"}
+,{"stream_name":"stdout","time":228.930909031,"data":"Config(exp_id='T00', seed=0, fold=0, backbone='resnet50', init='finetune', drop_rate=0.0, img_size=224, aug='basic', sampler=None, mix=None, mix_alpha=1.0, loss='ce', label_smoothing=0.1, focal_gamma=2.0, class_weight_beta=None, epochs=12, batch_size=64, lr_backbone=0.0001, lr_head=0.001, weight_decay=0.05, warmup_epochs=1.0, ema_decay=None, amp=True, num_workers=2, images_dir='/kaggle/input/datasets/ntthduong/k4-track4-day2-deepweeds-images', labels_dir='/kaggle/input/notebooks/ntthduong/k4-track4-day2-deepweeds-lab/data/labels', out_dir='runs', pred_dir='predictions', curves_dir='curves', save_test_predictions=False, pretrained=True)\n"}
+,{"stream_name":"stdout","time":229.537249199,"data":"Labels: [8, 8, 8, 0, 8, 3, 7, 8]\n"}
+,{"stream_name":"stdout","time":230.37558045,"data":"Uniform loss: 2.1972246170043945\n"}
+,{"stream_name":"stdout","time":231.754226411,"data":"0 3.5129079818725586\n"}
+,{"stream_name":"stdout","time":232.661752318,"data":"20 8.695934957358986e-05\n"}
+,{"stream_name":"stdout","time":233.479266056,"data":"40 4.90239517603186e-06\n"}
+,{"stream_name":"stdout","time":234.298944151,"data":"60 1.8626329847393208e-06\n"}
+,{"stream_name":"stdout","time":235.115514774,"data":"80 1.2367911494948203e-06\n"}
+,{"stream_name":"stdout","time":235.887615965,"data":"Final batch accuracy: 1.0\n"}
+,{"stream_name":"stdout","time":303.058033155,"data":"Imported previous five backbone checkpoints: /kaggle/input/notebooks/ntthduong/k4-track4-day2-deepweeds-lab\n"}
+,{"stream_name":"stdout","time":303.503009688,"data":"Selected backbone on validation: convnext_tiny\n"}
+,{"stream_name":"stdout","time":319.198063112,"data":"{'n': {'train': 10501, 'val': 3501, 'test': 3507}, 'per_class': {'train': {0: 675, 1: 637, 2: 618, 3: 613, 4: 637, 5: 605, 6: 644, 7: 609, 8: 5463}, 'val': {0: 225, 1: 213, 2: 206, 3: 204, 4: 212, 5: 202, 6: 215, 7: 203, 8: 1821}, 'test': {0: 226, 1: 213, 2: 207, 3: 205, 4: 213, 5: 202, 6: 215, 7: 204, 8: 1822}}, 'overlap': {'train/val': 0, 'train/test': 0, 'val/test': 0}}\n"}
+,{"stream_name":"stdout","time":551.304312522,"data":"Epoch 1/12: loss=1.7101 val F1=0.1104 (best)\n"}
+,{"stream_name":"stdout","time":620.869187715,"data":"Epoch 2/12: loss=1.6023 val F1=0.1128 (best)\n"}
+,{"stream_name":"stdout","time":690.505148265,"data":"Epoch 3/12: loss=1.5413 val F1=0.1662 (best)\n"}
+,{"stream_name":"stdout","time":759.940892181,"data":"Epoch 4/12: loss=1.4595 val F1=0.2321 (best)\n"}
+,{"stream_name":"stdout","time":829.360847662,"data":"Epoch 5/12: loss=1.4158 val F1=0.2502 (best)\n"}
+,{"stream_name":"stdout","time":900.149739447,"data":"Epoch 6/12: loss=1.3805 val F1=0.2502 (best)\n"}
+,{"stream_name":"stdout","time":969.211070396,"data":"Epoch 7/12: loss=1.3362 val F1=0.2502 (best)\n"}
+,{"stream_name":"stdout","time":1038.671755507,"data":"Epoch 8/12: loss=1.3109 val F1=0.2502 (best)\n"}
+,{"stream_name":"stdout","time":1108.269551285,"data":"Epoch 9/12: loss=1.2868 val F1=0.2532 (best)\n"}
+,{"stream_name":"stdout","time":1177.869259175,"data":"Epoch 10/12: loss=1.2614 val F1=0.2866 (best)\n"}
+,{"stream_name":"stdout","time":1247.222949508,"data":"Epoch 11/12: loss=1.2471 val F1=0.2948 (best)\n"}
+,{"stream_name":"stdout","time":1316.945415679,"data":"Epoch 12/12: loss=1.2376 val F1=0.2953 (best)\n"}
+,{"stream_name":"stdout","time":1360.748059751,"data":"{'n': {'train': 10501, 'val': 3501, 'test': 3507}, 'per_class': {'train': {0: 675, 1: 637, 2: 618, 3: 613, 4: 637, 5: 605, 6: 644, 7: 609, 8: 5463}, 'val': {0: 225, 1: 213, 2: 206, 3: 204, 4: 212, 5: 202, 6: 215, 7: 203, 8: 1821}, 'test': {0: 226, 1: 213, 2: 207, 3: 205, 4: 213, 5: 202, 6: 215, 7: 204, 8: 1822}}, 'overlap': {'train/val': 0, 'train/test': 0, 'val/test': 0}}\n"}
+,{"stream_name":"stderr","time":1361.117552006,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":1361.117575564,"data":"\n"}
+,{"stream_name":"stderr","time":1361.117581,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":1410.908316532,"data":"Epoch 1/12: loss=1.2038 val F1=0.7371 (best)\n"}
+,{"stream_name":"stdout","time":1454.347534628,"data":"Epoch 2/12: loss=0.5871 val F1=0.7922 (best)\n"}
+,{"stream_name":"stdout","time":1498.525779784,"data":"Epoch 3/12: loss=0.4919 val F1=0.8052 (best)\n"}
+,{"stream_name":"stdout","time":1543.304801646,"data":"Epoch 4/12: loss=0.4462 val F1=0.8254 (best)\n"}
+,{"stream_name":"stdout","time":1586.63510418,"data":"Epoch 5/12: loss=0.4137 val F1=0.8386 (best)\n"}
+,{"stream_name":"stdout","time":1630.095603385,"data":"Epoch 6/12: loss=0.3947 val F1=0.8386 (best)\n"}
+,{"stream_name":"stdout","time":1674.048760368,"data":"Epoch 7/12: loss=0.3776 val F1=0.8423 (best)\n"}
+,{"stream_name":"stdout","time":1717.256046624,"data":"Epoch 8/12: loss=0.3799 val F1=0.8423 (best)\n"}
+,{"stream_name":"stdout","time":1761.451087601,"data":"Epoch 9/12: loss=0.3720 val F1=0.8484 (best)\n"}
+,{"stream_name":"stdout","time":1804.730966491,"data":"Epoch 10/12: loss=0.3567 val F1=0.8484 (best)\n"}
+,{"stream_name":"stdout","time":1848.409432447,"data":"Epoch 11/12: loss=0.3573 val F1=0.8506 (best)\n"}
+,{"stream_name":"stdout","time":1891.603821203,"data":"Epoch 12/12: loss=0.3610 val F1=0.8506 (best)\n"}
+,{"stream_name":"stdout","time":1928.829840015,"data":"{'n': {'train': 10501, 'val': 3501, 'test': 3507}, 'per_class': {'train': {0: 675, 1: 637, 2: 618, 3: 613, 4: 637, 5: 605, 6: 644, 7: 609, 8: 5463}, 'val': {0: 225, 1: 213, 2: 206, 3: 204, 4: 212, 5: 202, 6: 215, 7: 203, 8: 1821}, 'test': {0: 226, 1: 213, 2: 207, 3: 205, 4: 213, 5: 202, 6: 215, 7: 204, 8: 1822}}, 'overlap': {'train/val': 0, 'train/test': 0, 'val/test': 0}}\n"}
+,{"stream_name":"stdout","time":2003.186519793,"data":"Epoch 1/12: loss=0.8212 val F1=0.7842 (best)\n"}
+,{"stream_name":"stdout","time":2077.849033124,"data":"Epoch 2/12: loss=0.4148 val F1=0.8782 (best)\n"}
+,{"stream_name":"stdout","time":2153.540852326,"data":"Epoch 3/12: loss=0.3028 val F1=0.8903 (best)\n"}
+,{"stream_name":"stdout","time":2228.936635912,"data":"Epoch 4/12: loss=0.2517 val F1=0.9334 (best)\n"}
+,{"stream_name":"stdout","time":2304.120479035,"data":"Epoch 5/12: loss=0.2089 val F1=0.9442 (best)\n"}
+,{"stream_name":"stdout","time":2378.814902929,"data":"Epoch 6/12: loss=0.1712 val F1=0.9442 (best)\n"}
+,{"stream_name":"stdout","time":2454.365162522,"data":"Epoch 7/12: loss=0.1335 val F1=0.9570 (best)\n"}
+,{"stream_name":"stdout","time":2531.600135448,"data":"Epoch 8/12: loss=0.1070 val F1=0.9570 (best)\n"}
+,{"stream_name":"stdout","time":2609.119870127,"data":"Epoch 9/12: loss=0.0843 val F1=0.9642 (best)\n"}
+,{"stream_name":"stdout","time":2688.549818952,"data":"Epoch 10/12: loss=0.0654 val F1=0.9683 (best)\n"}
+,{"stream_name":"stdout","time":2771.281537509,"data":"Epoch 11/12: loss=0.0546 val F1=0.9683 (best)\n"}
+,{"stream_name":"stdout","time":2855.064231241,"data":"Epoch 12/12: loss=0.0501 val F1=0.9683 (best)\n"}
+,{"stream_name":"stdout","time":2913.484505902,"data":"{'n': {'train': 10501, 'val': 3501, 'test': 3507}, 'per_class': {'train': {0: 675, 1: 637, 2: 618, 3: 613, 4: 637, 5: 605, 6: 644, 7: 609, 8: 5463}, 'val': {0: 225, 1: 213, 2: 206, 3: 204, 4: 212, 5: 202, 6: 215, 7: 203, 8: 1821}, 'test': {0: 226, 1: 213, 2: 207, 3: 205, 4: 213, 5: 202, 6: 215, 7: 204, 8: 1822}}, 'overlap': {'train/val': 0, 'train/test': 0, 'val/test': 0}}\n"}
+,{"stream_name":"stdout","time":2986.20217996,"data":"Epoch 1/12: loss=1.2185 val F1=0.7671 (best)\n"}
+,{"stream_name":"stdout","time":3056.551166675,"data":"Epoch 2/12: loss=0.8755 val F1=0.8593 (best)\n"}
+,{"stream_name":"stdout","time":3126.645103759,"data":"Epoch 3/12: loss=0.7570 val F1=0.9155 (best)\n"}
+,{"stream_name":"stdout","time":3196.640925641,"data":"Epoch 4/12: loss=0.7022 val F1=0.9155 (best)\n"}
+,{"stream_name":"stdout","time":3266.520911974,"data":"Epoch 5/12: loss=0.6632 val F1=0.9213 (best)\n"}
+,{"stream_name":"stdout","time":3336.549215557,"data":"Epoch 6/12: loss=0.6182 val F1=0.9470 (best)\n"}
+,{"stream_name":"stdout","time":3406.316323972,"data":"Epoch 7/12: loss=0.5805 val F1=0.9470 (best)\n"}
+,{"stream_name":"stdout","time":3475.99473713,"data":"Epoch 8/12: loss=0.5499 val F1=0.9535 (best)\n"}
+,{"stream_name":"stdout","time":3545.886004173,"data":"Epoch 9/12: loss=0.5400 val F1=0.9574 (best)\n"}
+,{"stream_name":"stdout","time":3615.773777669,"data":"Epoch 10/12: loss=0.4980 val F1=0.9671 (best)\n"}
+,{"stream_name":"stdout","time":3685.278894662,"data":"Epoch 11/12: loss=0.4898 val F1=0.9671 (best)\n"}
+,{"stream_name":"stdout","time":3755.037145843,"data":"Epoch 12/12: loss=0.4849 val F1=0.9671 (best)\n"}
+,{"stream_name":"stdout","time":3829.890574523,"data":"{'n': {'train': 10501, 'val': 3501, 'test': 3507}, 'per_class': {'train': {0: 675, 1: 637, 2: 618, 3: 613, 4: 637, 5: 605, 6: 644, 7: 609, 8: 5463}, 'val': {0: 225, 1: 213, 2: 206, 3: 204, 4: 212, 5: 202, 6: 215, 7: 203, 8: 1821}, 'test': {0: 226, 1: 213, 2: 207, 3: 205, 4: 213, 5: 202, 6: 215, 7: 204, 8: 1822}}, 'overlap': {'train/val': 0, 'train/test': 0, 'val/test': 0}}\n"}
+,{"stream_name":"stdout","time":3901.272710582,"data":"Epoch 1/12: loss=1.2828 val F1=0.8257 (best)\n"}
+,{"stream_name":"stdout","time":3971.639622479,"data":"Epoch 2/12: loss=0.9919 val F1=0.8798 (best)\n"}
+,{"stream_name":"stdout","time":4041.56182435,"data":"Epoch 3/12: loss=0.9054 val F1=0.9175 (best)\n"}
+,{"stream_name":"stdout","time":4111.763878454,"data":"Epoch 4/12: loss=0.8630 val F1=0.9175 (best)\n"}
+,{"stream_name":"stdout","time":4182.710456584,"data":"Epoch 5/12: loss=0.8378 val F1=0.9326 (best)\n"}
+,{"stream_name":"stdout","time":4253.624869178,"data":"Epoch 6/12: loss=0.8099 val F1=0.9506 (best)\n"}
+,{"stream_name":"stdout","time":4324.241372799,"data":"Epoch 7/12: loss=0.7704 val F1=0.9609 (best)\n"}
+,{"stream_name":"stdout","time":4394.985782216,"data":"Epoch 8/12: loss=0.7682 val F1=0.9634 (best)\n"}
+,{"stream_name":"stdout","time":4465.163407346,"data":"Epoch 9/12: loss=0.6772 val F1=0.9634 (best)\n"}
+,{"stream_name":"stdout","time":4535.591755724,"data":"Epoch 10/12: loss=0.7114 val F1=0.9695 (best)\n"}
+,{"stream_name":"stdout","time":4606.265701906,"data":"Epoch 11/12: loss=0.6785 val F1=0.9695 (best)\n"}
+,{"stream_name":"stdout","time":4676.931817146,"data":"Epoch 12/12: loss=0.6198 val F1=0.9695 (best)\n"}
+,{"stream_name":"stdout","time":4742.291462873,"data":"{'n': {'train': 10501, 'val': 3501, 'test': 3507}, 'per_class': {'train': {0: 675, 1: 637, 2: 618, 3: 613, 4: 637, 5: 605, 6: 644, 7: 609, 8: 5463}, 'val': {0: 225, 1: 213, 2: 206, 3: 204, 4: 212, 5: 202, 6: 215, 7: 203, 8: 1821}, 'test': {0: 226, 1: 213, 2: 207, 3: 205, 4: 213, 5: 202, 6: 215, 7: 204, 8: 1822}}, 'overlap': {'train/val': 0, 'train/test': 0, 'val/test': 0}}\n"}
+,{"stream_name":"stdout","time":4813.665316939,"data":"Epoch 1/12: loss=1.0986 val F1=0.8286 (best)\n"}
+,{"stream_name":"stdout","time":4883.426041176,"data":"Epoch 2/12: loss=0.7687 val F1=0.8983 (best)\n"}
+,{"stream_name":"stdout","time":4953.553695328,"data":"Epoch 3/12: loss=0.6974 val F1=0.9160 (best)\n"}
+,{"stream_name":"stdout","time":5023.4546616,"data":"Epoch 4/12: loss=0.6727 val F1=0.9179 (best)\n"}
+,{"stream_name":"stdout","time":5093.042154369,"data":"Epoch 5/12: loss=0.6371 val F1=0.9233 (best)\n"}
+,{"stream_name":"stdout","time":5162.767544259,"data":"Epoch 6/12: loss=0.5975 val F1=0.9539 (best)\n"}
+,{"stream_name":"stdout","time":5232.303348796,"data":"Epoch 7/12: loss=0.5796 val F1=0.9539 (best)\n"}
+,{"stream_name":"stdout","time":5301.474001929,"data":"Epoch 8/12: loss=0.5603 val F1=0.9605 (best)\n"}
+,{"stream_name":"stdout","time":5370.799151401,"data":"Epoch 9/12: loss=0.5402 val F1=0.9611 (best)\n"}
+,{"stream_name":"stdout","time":5440.119300994,"data":"Epoch 10/12: loss=0.5313 val F1=0.9707 (best)\n"}
+,{"stream_name":"stdout","time":5509.401802887,"data":"Epoch 11/12: loss=0.5200 val F1=0.9712 (best)\n"}
+,{"stream_name":"stdout","time":5578.345650028,"data":"Epoch 12/12: loss=0.5191 val F1=0.9712 (best)\n"}
+,{"stream_name":"stdout","time":5618.208853755,"data":"{'n': {'train': 10501, 'val': 3501, 'test': 3507}, 'per_class': {'train': {0: 675, 1: 637, 2: 618, 3: 613, 4: 637, 5: 605, 6: 644, 7: 609, 8: 5463}, 'val': {0: 225, 1: 213, 2: 206, 3: 204, 4: 212, 5: 202, 6: 215, 7: 203, 8: 1821}, 'test': {0: 226, 1: 213, 2: 207, 3: 205, 4: 213, 5: 202, 6: 215, 7: 204, 8: 1822}}, 'overlap': {'train/val': 0, 'train/test': 0, 'val/test': 0}}\n"}
+,{"stream_name":"stdout","time":5689.398464039,"data":"Epoch 1/12: loss=0.5162 val F1=0.7921 (best)\n"}
+,{"stream_name":"stdout","time":5758.772326518,"data":"Epoch 2/12: loss=0.2101 val F1=0.8852 (best)\n"}
+,{"stream_name":"stdout","time":5827.248801336,"data":"Epoch 3/12: loss=0.1547 val F1=0.8852 (best)\n"}
+,{"stream_name":"stdout","time":5896.009565624,"data":"Epoch 4/12: loss=0.1242 val F1=0.8852 (best)\n"}
+,{"stream_name":"stdout","time":5964.763902874,"data":"Epoch 5/12: loss=0.1005 val F1=0.9305 (best)\n"}
+,{"stream_name":"stdout","time":6033.10702071,"data":"Epoch 6/12: loss=0.0761 val F1=0.9305 (best)\n"}
+,{"stream_name":"stdout","time":6101.419552301,"data":"Epoch 7/12: loss=0.0592 val F1=0.9329 (best)\n"}
+,{"stream_name":"stdout","time":6169.722854659,"data":"Epoch 8/12: loss=0.0456 val F1=0.9537 (best)\n"}
+,{"stream_name":"stdout","time":6237.915593145,"data":"Epoch 9/12: loss=0.0321 val F1=0.9682 (best)\n"}
+,{"stream_name":"stdout","time":6305.396212114,"data":"Epoch 10/12: loss=0.0245 val F1=0.9690 (best)\n"}
+,{"stream_name":"stdout","time":6372.826375341,"data":"Epoch 11/12: loss=0.0197 val F1=0.9690 (best)\n"}
+,{"stream_name":"stdout","time":6440.312897788,"data":"Epoch 12/12: loss=0.0186 val F1=0.9690 (best)\n"}
+,{"stream_name":"stdout","time":6494.163678385,"data":"{'n': {'train': 10501, 'val': 3501, 'test': 3507}, 'per_class': {'train': {0: 675, 1: 637, 2: 618, 3: 613, 4: 637, 5: 605, 6: 644, 7: 609, 8: 5463}, 'val': {0: 225, 1: 213, 2: 206, 3: 204, 4: 212, 5: 202, 6: 215, 7: 203, 8: 1821}, 'test': {0: 226, 1: 213, 2: 207, 3: 205, 4: 213, 5: 202, 6: 215, 7: 204, 8: 1822}}, 'overlap': {'train/val': 0, 'train/test': 0, 'val/test': 0}}\n"}
+,{"stream_name":"stdout","time":6565.314065378,"data":"Epoch 1/12: loss=0.9456 val F1=0.7831 (best)\n"}
+,{"stream_name":"stdout","time":6634.681147421,"data":"Epoch 2/12: loss=0.4584 val F1=0.8168 (best)\n"}
+,{"stream_name":"stdout","time":6703.751512144,"data":"Epoch 3/12: loss=0.3340 val F1=0.8562 (best)\n"}
+,{"stream_name":"stdout","time":6773.177832479,"data":"Epoch 4/12: loss=0.2639 val F1=0.8850 (best)\n"}
+,{"stream_name":"stdout","time":6842.272772526,"data":"Epoch 5/12: loss=0.2130 val F1=0.9027 (best)\n"}
+,{"stream_name":"stdout","time":6910.761059494,"data":"Epoch 6/12: loss=0.1779 val F1=0.9054 (best)\n"}
+,{"stream_name":"stdout","time":6979.440932494,"data":"Epoch 7/12: loss=0.1358 val F1=0.9399 (best)\n"}
+,{"stream_name":"stdout","time":7048.629379502,"data":"Epoch 8/12: loss=0.1149 val F1=0.9399 (best)\n"}
+,{"stream_name":"stdout","time":7116.763183485,"data":"Epoch 9/12: loss=0.0816 val F1=0.9603 (best)\n"}
+,{"stream_name":"stdout","time":7184.939600488,"data":"Epoch 10/12: loss=0.0627 val F1=0.9622 (best)\n"}
+,{"stream_name":"stdout","time":7253.234616325,"data":"Epoch 11/12: loss=0.0540 val F1=0.9632 (best)\n"}
+,{"stream_name":"stdout","time":7320.852773096,"data":"Epoch 12/12: loss=0.0471 val F1=0.9632 (best)\n"}
+,{"stream_name":"stdout","time":7379.225482999,"data":"{'n': {'train': 10501, 'val': 3501, 'test': 3507}, 'per_class': {'train': {0: 675, 1: 637, 2: 618, 3: 613, 4: 637, 5: 605, 6: 644, 7: 609, 8: 5463}, 'val': {0: 225, 1: 213, 2: 206, 3: 204, 4: 212, 5: 202, 6: 215, 7: 203, 8: 1821}, 'test': {0: 226, 1: 213, 2: 207, 3: 205, 4: 213, 5: 202, 6: 215, 7: 204, 8: 1822}}, 'overlap': {'train/val': 0, 'train/test': 0, 'val/test': 0}}\n"}
+,{"stream_name":"stdout","time":7450.741077782,"data":"Epoch 1/12: loss=0.8028 val F1=0.2039 (best)\n"}
+,{"stream_name":"stdout","time":7521.108813361,"data":"Epoch 2/12: loss=0.3610 val F1=0.5246 (best)\n"}
+,{"stream_name":"stdout","time":7591.417147696,"data":"Epoch 3/12: loss=0.2971 val F1=0.7852 (best)\n"}
+,{"stream_name":"stdout","time":7661.282083805,"data":"Epoch 4/12: loss=0.2268 val F1=0.8830 (best)\n"}
+,{"stream_name":"stdout","time":7731.51097999,"data":"Epoch 5/12: loss=0.1950 val F1=0.9269 (best)\n"}
+,{"stream_name":"stdout","time":7801.477864541,"data":"Epoch 6/12: loss=0.1600 val F1=0.9496 (best)\n"}
+,{"stream_name":"stdout","time":7871.361735837,"data":"Epoch 7/12: loss=0.1230 val F1=0.9547 (best)\n"}
+,{"stream_name":"stdout","time":7940.860815774,"data":"Epoch 8/12: loss=0.0986 val F1=0.9598 (best)\n"}
+,{"stream_name":"stdout","time":8009.980573215,"data":"Epoch 9/12: loss=0.0723 val F1=0.9634 (best)\n"}
+,{"stream_name":"stdout","time":8079.045235329,"data":"Epoch 10/12: loss=0.0538 val F1=0.9671 (best)\n"}
+,{"stream_name":"stdout","time":8147.505215528,"data":"Epoch 11/12: loss=0.0413 val F1=0.9671 (best)\n"}
+,{"stream_name":"stdout","time":8216.040600575,"data":"Epoch 12/12: loss=0.0412 val F1=0.9671 (best)\n"}
+,{"stream_name":"stdout","time":8283.783572116,"data":"{'n': {'train': 10501, 'val': 3501, 'test': 3507}, 'per_class': {'train': {0: 675, 1: 637, 2: 618, 3: 613, 4: 637, 5: 605, 6: 644, 7: 609, 8: 5463}, 'val': {0: 225, 1: 213, 2: 206, 3: 204, 4: 212, 5: 202, 6: 215, 7: 203, 8: 1821}, 'test': {0: 226, 1: 213, 2: 207, 3: 205, 4: 213, 5: 202, 6: 215, 7: 204, 8: 1822}}, 'overlap': {'train/val': 0, 'train/test': 0, 'val/test': 0}}\n"}
+,{"stream_name":"stdout","time":8360.263354952,"data":"Epoch 1/12: loss=1.4729 val F1=0.1754 (best)\n"}
+,{"stream_name":"stdout","time":8436.737777738,"data":"Epoch 2/12: loss=1.2687 val F1=0.4731 (best)\n"}
+,{"stream_name":"stdout","time":8512.937211328,"data":"Epoch 3/12: loss=1.1775 val F1=0.7356 (best)\n"}
+,{"stream_name":"stdout","time":8590.196557048,"data":"Epoch 4/12: loss=1.1372 val F1=0.8451 (best)\n"}
+,{"stream_name":"stdout","time":8667.47950486,"data":"Epoch 5/12: loss=1.1205 val F1=0.9010 (best)\n"}
+,{"stream_name":"stdout","time":8742.640183275,"data":"Epoch 6/12: loss=1.1050 val F1=0.9248 (best)\n"}
+,{"stream_name":"stdout","time":8817.704950531,"data":"Epoch 7/12: loss=1.0748 val F1=0.9436 (best)\n"}
+,{"stream_name":"stdout","time":8892.655212744,"data":"Epoch 8/12: loss=1.0723 val F1=0.9514 (best)\n"}
+,{"stream_name":"stdout","time":8967.962388479,"data":"Epoch 9/12: loss=1.0031 val F1=0.9588 (best)\n"}
+,{"stream_name":"stdout","time":9044.339184327,"data":"Epoch 10/12: loss=1.0330 val F1=0.9624 (best)\n"}
+,{"stream_name":"stdout","time":9120.102941262,"data":"Epoch 11/12: loss=1.0052 val F1=0.9644 (best)\n"}
+,{"stream_name":"stdout","time":9196.058124525,"data":"Epoch 12/12: loss=0.9516 val F1=0.9655 (best)\n"}
+,{"stream_name":"stdout","time":9287.316270034,"data":"Locked selection: {'recipe': {'exp_id': 'T06_ls', 'seed': 0, 'fold': 0, 'backbone': 'convnext_tiny', 'init': 'finetune', 'drop_rate': 0.0, 'img_size': 224, 'aug': 'basic', 'sampler': None, 'mix': None, 'mix_alpha': 1.0, 'loss': 'ls', 'label_smoothing': 0.1, 'focal_gamma': 2.0, 'class_weight_beta': None, 'epochs': 12, 'batch_size': 64, 'lr_backbone': 0.0001, 'lr_head': 0.001, 'weight_decay': 0.05, 'warmup_epochs': 1.0, 'ema_decay': None, 'amp': True, 'num_workers': 2, 'images_dir': '/kaggle/input/datasets/ntthduong/k4-track4-day2-deepweeds-images', 'labels_dir': '/kaggle/input/notebooks/ntthduong/k4-track4-day2-deepweeds-lab/data/labels', 'out_dir': 'runs', 'pred_dir': 'predictions', 'curves_dir': 'curves', 'save_test_predictions': False, 'pretrained': True}, 'method': 'hflip_prob', 'calibrated': True, 'inference_choice': 'I01_hflip_prob', 'seeds': [0, 1, 2], 'selection_split': 'val', 'test_used_for_selection': False}\n"}
+,{"stream_name":"stdout","time":9547.995050611,"data":"{'n': {'train': 10501, 'val': 3501, 'test': 3507}, 'per_class': {'train': {0: 675, 1: 637, 2: 618, 3: 613, 4: 637, 5: 605, 6: 644, 7: 609, 8: 5463}, 'val': {0: 225, 1: 213, 2: 206, 3: 204, 4: 212, 5: 202, 6: 215, 7: 203, 8: 1821}, 'test': {0: 226, 1: 213, 2: 207, 3: 205, 4: 213, 5: 202, 6: 215, 7: 204, 8: 1822}}, 'overlap': {'train/val': 0, 'train/test': 0, 'val/test': 0}}\n"}
+,{"stream_name":"stdout","time":9620.103006837,"data":"Epoch 1/12: loss=1.1430 val F1=0.8458 (best)\n"}
+,{"stream_name":"stdout","time":9690.029776175,"data":"Epoch 2/12: loss=0.7760 val F1=0.8717 (best)\n"}
+,{"stream_name":"stdout","time":9759.774470278,"data":"Epoch 3/12: loss=0.7085 val F1=0.8978 (best)\n"}
+,{"stream_name":"stdout","time":9829.195277882,"data":"Epoch 4/12: loss=0.6619 val F1=0.9345 (best)\n"}
+,{"stream_name":"stdout","time":9898.698166568,"data":"Epoch 5/12: loss=0.6314 val F1=0.9468 (best)\n"}
+,{"stream_name":"stdout","time":9968.171447945,"data":"Epoch 6/12: loss=0.5983 val F1=0.9468 (best)\n"}
+,{"stream_name":"stdout","time":10037.518770537,"data":"Epoch 7/12: loss=0.5804 val F1=0.9468 (best)\n"}
+,{"stream_name":"stdout","time":10107.042817806,"data":"Epoch 8/12: loss=0.5631 val F1=0.9559 (best)\n"}
+,{"stream_name":"stdout","time":10176.767614018,"data":"Epoch 9/12: loss=0.5447 val F1=0.9674 (best)\n"}
+,{"stream_name":"stdout","time":10245.956065713,"data":"Epoch 10/12: loss=0.5248 val F1=0.9723 (best)\n"}
+,{"stream_name":"stdout","time":10315.063814663,"data":"Epoch 11/12: loss=0.5231 val F1=0.9723 (best)\n"}
+,{"stream_name":"stdout","time":10384.204738724,"data":"Epoch 12/12: loss=0.5241 val F1=0.9723 (best)\n"}
+,{"stream_name":"stdout","time":10483.305859447,"data":"{'n': {'train': 10501, 'val': 3501, 'test': 3507}, 'per_class': {'train': {0: 675, 1: 637, 2: 618, 3: 613, 4: 637, 5: 605, 6: 644, 7: 609, 8: 5463}, 'val': {0: 225, 1: 213, 2: 206, 3: 204, 4: 212, 5: 202, 6: 215, 7: 203, 8: 1821}, 'test': {0: 226, 1: 213, 2: 207, 3: 205, 4: 213, 5: 202, 6: 215, 7: 204, 8: 1822}}, 'overlap': {'train/val': 0, 'train/test': 0, 'val/test': 0}}\n"}
+,{"stream_name":"stdout","time":10554.404064833,"data":"Epoch 1/12: loss=0.8546 val F1=0.7980 (best)\n"}
+,{"stream_name":"stdout","time":10623.801600664,"data":"Epoch 2/12: loss=0.3721 val F1=0.8919 (best)\n"}
+,{"stream_name":"stdout","time":10693.257578828,"data":"Epoch 3/12: loss=0.2828 val F1=0.9232 (best)\n"}
+,{"stream_name":"stdout","time":10762.34833141,"data":"Epoch 4/12: loss=0.2398 val F1=0.9232 (best)\n"}
+,{"stream_name":"stdout","time":10831.200794798,"data":"Epoch 5/12: loss=0.1780 val F1=0.9313 (best)\n"}
+,{"stream_name":"stdout","time":10899.942567263,"data":"Epoch 6/12: loss=0.1539 val F1=0.9437 (best)\n"}
+,{"stream_name":"stdout","time":10968.676656335,"data":"Epoch 7/12: loss=0.1270 val F1=0.9540 (best)\n"}
+,{"stream_name":"stdout","time":11037.189644621,"data":"Epoch 8/12: loss=0.0936 val F1=0.9540 (best)\n"}
+,{"stream_name":"stdout","time":11105.379188745,"data":"Epoch 9/12: loss=0.0769 val F1=0.9651 (best)\n"}
+,{"stream_name":"stdout","time":11173.45782247,"data":"Epoch 10/12: loss=0.0488 val F1=0.9689 (best)\n"}
+,{"stream_name":"stdout","time":11241.291167352,"data":"Epoch 11/12: loss=0.0436 val F1=0.9689 (best)\n"}
+,{"stream_name":"stdout","time":11309.413499205,"data":"Epoch 12/12: loss=0.0452 val F1=0.9689 (best)\n"}
+,{"stream_name":"stdout","time":11374.298307263,"data":"{'n': {'train': 10501, 'val': 3501, 'test': 3507}, 'per_class': {'train': {0: 675, 1: 637, 2: 618, 3: 613, 4: 637, 5: 605, 6: 644, 7: 609, 8: 5463}, 'val': {0: 225, 1: 213, 2: 206, 3: 204, 4: 212, 5: 202, 6: 215, 7: 203, 8: 1821}, 'test': {0: 226, 1: 213, 2: 207, 3: 205, 4: 213, 5: 202, 6: 215, 7: 204, 8: 1822}}, 'overlap': {'train/val': 0, 'train/test': 0, 'val/test': 0}}\n"}
+,{"stream_name":"stdout","time":11446.04002782,"data":"Epoch 1/12: loss=1.1426 val F1=0.8704 (best)\n"}
+,{"stream_name":"stdout","time":11516.105080522,"data":"Epoch 2/12: loss=0.7674 val F1=0.8874 (best)\n"}
+,{"stream_name":"stdout","time":11585.6508231,"data":"Epoch 3/12: loss=0.6968 val F1=0.8980 (best)\n"}
+,{"stream_name":"stdout","time":11655.78261759,"data":"Epoch 4/12: loss=0.6502 val F1=0.9415 (best)\n"}
+,{"stream_name":"stdout","time":11725.595804089,"data":"Epoch 5/12: loss=0.6160 val F1=0.9415 (best)\n"}
+,{"stream_name":"stdout","time":11795.339775549,"data":"Epoch 6/12: loss=0.6013 val F1=0.9628 (best)\n"}
+,{"stream_name":"stdout","time":11864.692800727,"data":"Epoch 7/12: loss=0.5796 val F1=0.9628 (best)\n"}
+,{"stream_name":"stdout","time":11933.934456135,"data":"Epoch 8/12: loss=0.5648 val F1=0.9628 (best)\n"}
+,{"stream_name":"stdout","time":12003.370322028,"data":"Epoch 9/12: loss=0.5422 val F1=0.9628 (best)\n"}
+,{"stream_name":"stdout","time":12072.5417652,"data":"Epoch 10/12: loss=0.5311 val F1=0.9693 (best)\n"}
+,{"stream_name":"stdout","time":12141.864783119,"data":"Epoch 11/12: loss=0.5241 val F1=0.9731 (best)\n"}
+,{"stream_name":"stdout","time":12211.183445824,"data":"Epoch 12/12: loss=0.5215 val F1=0.9731 (best)\n"}
+,{"stream_name":"stdout","time":12322.679328987,"data":"{'n': {'train': 10501, 'val': 3501, 'test': 3507}, 'per_class': {'train': {0: 675, 1: 637, 2: 618, 3: 613, 4: 637, 5: 605, 6: 644, 7: 609, 8: 5463}, 'val': {0: 225, 1: 213, 2: 206, 3: 204, 4: 212, 5: 202, 6: 215, 7: 203, 8: 1821}, 'test': {0: 226, 1: 213, 2: 207, 3: 205, 4: 213, 5: 202, 6: 215, 7: 204, 8: 1822}}, 'overlap': {'train/val': 0, 'train/test': 0, 'val/test': 0}}\n"}
+,{"stream_name":"stdout","time":12393.958160073,"data":"Epoch 1/12: loss=0.8466 val F1=0.8464 (best)\n"}
+,{"stream_name":"stdout","time":12463.693210252,"data":"Epoch 2/12: loss=0.3883 val F1=0.8884 (best)\n"}
+,{"stream_name":"stdout","time":12532.568648765,"data":"Epoch 3/12: loss=0.2786 val F1=0.9057 (best)\n"}
+,{"stream_name":"stdout","time":12601.811814557,"data":"Epoch 4/12: loss=0.2272 val F1=0.9310 (best)\n"}
+,{"stream_name":"stdout","time":12670.761831886,"data":"Epoch 5/12: loss=0.1841 val F1=0.9310 (best)\n"}
+,{"stream_name":"stdout","time":12739.514128225,"data":"Epoch 6/12: loss=0.1598 val F1=0.9446 (best)\n"}
+,{"stream_name":"stdout","time":12808.038874179,"data":"Epoch 7/12: loss=0.1333 val F1=0.9537 (best)\n"}
+,{"stream_name":"stdout","time":12877.901454509,"data":"Epoch 8/12: loss=0.0973 val F1=0.9611 (best)\n"}
+,{"stream_name":"stdout","time":12946.199948957,"data":"Epoch 9/12: loss=0.0752 val F1=0.9611 (best)\n"}
+,{"stream_name":"stdout","time":13014.637556115,"data":"Epoch 10/12: loss=0.0540 val F1=0.9611 (best)\n"}
+,{"stream_name":"stdout","time":13083.184011719,"data":"Epoch 11/12: loss=0.0453 val F1=0.9672 (best)\n"}
+,{"stream_name":"stdout","time":13151.680089856,"data":"Epoch 12/12: loss=0.0400 val F1=0.9683 (best)\n"}
+,{"stream_name":"stdout","time":13204.837759371,"data":"### F01 (3 seed: [0, 1, 2]; 3507 ảnh)\n"}
+,{"stream_name":"stdout","time":13204.837794301,"data":"\n"}
+,{"stream_name":"stdout","time":13204.837800531,"data":"| Chỉ số | mean ± std |\n"}
+,{"stream_name":"stdout","time":13204.837807409,"data":"|---|---|\n"}
+,{"stream_name":"stdout","time":13204.837811668,"data":"| top-1 accuracy | 0.9778 ± 0.0008 |\n"}
+,{"stream_name":"stdout","time":13204.837815973,"data":"| macro-F1 | 0.9715 ± 0.0012 |\n"}
+,{"stream_name":"stdout","time":13204.837824594,"data":"| balanced accuracy | 0.9759 ± 0.0024 |\n"}
+,{"stream_name":"stdout","time":13204.83782749,"data":"| ECE (15 bin) | 0.0070 ± 0.0011 |\n"}
+,{"stream_name":"stdout","time":13204.837838823,"data":"| NLL | 0.0831 ± 0.0070 |\n"}
+,{"stream_name":"stdout","time":13204.837841176,"data":"\n"}
+,{"stream_name":"stdout","time":13204.837843216,"data":"| Lớp | Precision | Recall | F1 | Số ảnh |\n"}
+,{"stream_name":"stdout","time":13204.837845539,"data":"|---|---|---|---|---|\n"}
+,{"stream_name":"stdout","time":13204.83784782,"data":"| Chinee apple | 0.962 ± 0.008 | 0.957 ± 0.014 | 0.959 ± 0.004 | 226 |\n"}
+,{"stream_name":"stdout","time":13204.83785017,"data":"| Lantana | 0.943 ± 0.013 | 0.983 ± 0.007 | 0.962 ± 0.004 | 213 |\n"}
+,{"stream_name":"stdout","time":13204.837852468,"data":"| Parkinsonia | 0.979 ± 0.007 | 0.981 ± 0.005 | 0.980 ± 0.006 | 207 |\n"}
+,{"stream_name":"stdout","time":13204.837854831,"data":"| Parthenium | 0.990 ± 0.005 | 0.977 ± 0.007 | 0.984 ± 0.003 | 205 |\n"}
+,{"stream_name":"stdout","time":13204.837857098,"data":"| Prickly acacia | 0.937 ± 0.011 | 0.981 ± 0.000 | 0.959 ± 0.006 | 213 |\n"}
+,{"stream_name":"stdout","time":13204.837859327,"data":"| Rubber vine | 0.980 ± 0.005 | 0.982 ± 0.003 | 0.981 ± 0.003 | 202 |\n"}
+,{"stream_name":"stdout","time":13204.837861518,"data":"| Siam weed | 0.971 ± 0.020 | 0.983 ± 0.010 | 0.977 ± 0.006 | 215 |\n"}
+,{"stream_name":"stdout","time":13204.837863829,"data":"| Snake weed | 0.954 ± 0.024 | 0.959 ± 0.012 | 0.956 ± 0.006 | 204 |\n"}
+,{"stream_name":"stdout","time":13204.837866114,"data":"| Negative | 0.991 ± 0.003 | 0.980 ± 0.004 | 0.985 ± 0.001 | 1822 |\n"}
+,{"stream_name":"stdout","time":13204.83786834,"data":"\n"}
+,{"stream_name":"stdout","time":13204.837870391,"data":"Đã lưu kết quả vào eval_out/F01_*\n"}
+,{"stream_name":"stdout","time":13204.837872665,"data":"### T00_final (3 seed: [0, 1, 2]; 3507 ảnh)\n"}
+,{"stream_name":"stdout","time":13204.837874918,"data":"\n"}
+,{"stream_name":"stdout","time":13204.837876956,"data":"| Chỉ số | mean ± std |\n"}
+,{"stream_name":"stdout","time":13204.837879152,"data":"|---|---|\n"}
+,{"stream_name":"stdout","time":13204.83788124,"data":"| top-1 accuracy | 0.9750 ± 0.0013 |\n"}
+,{"stream_name":"stdout","time":13204.837883411,"data":"| macro-F1 | 0.9680 ± 0.0006 |\n"}
+,{"stream_name":"stdout","time":13204.837885546,"data":"| balanced accuracy | 0.9715 ± 0.0039 |\n"}
+,{"stream_name":"stdout","time":13204.837887675,"data":"| ECE (15 bin) | 0.0127 ± 0.0016 |\n"}
+,{"stream_name":"stdout","time":13204.837889808,"data":"| NLL | 0.0896 ± 0.0041 |\n"}
+,{"stream_name":"stdout","time":13204.83789192,"data":"\n"}
+,{"stream_name":"stdout","time":13204.837893935,"data":"| Lớp | Precision | Recall | F1 | Số ảnh |\n"}
+,{"stream_name":"stdout","time":13204.837896151,"data":"|---|---|---|---|---|\n"}
+,{"stream_name":"stdout","time":13204.837898261,"data":"| Chinee apple | 0.956 ± 0.011 | 0.950 ± 0.009 | 0.953 ± 0.008 | 226 |\n"}
+,{"stream_name":"stdout","time":13204.837900554,"data":"| Lantana | 0.946 ± 0.021 | 0.986 ± 0.005 | 0.966 ± 0.009 | 213 |\n"}
+,{"stream_name":"stdout","time":13204.837902901,"data":"| Parkinsonia | 0.973 ± 0.016 | 0.977 ± 0.003 | 0.975 ± 0.008 | 207 |\n"}
+,{"stream_name":"stdout","time":13204.837905164,"data":"| Parthenium | 0.987 ± 0.003 | 0.966 ± 0.018 | 0.976 ± 0.008 | 205 |\n"}
+,{"stream_name":"stdout","time":13204.837907338,"data":"| Prickly acacia | 0.929 ± 0.006 | 0.975 ± 0.010 | 0.951 ± 0.002 | 213 |\n"}
+,{"stream_name":"stdout","time":13204.837909611,"data":"| Rubber vine | 0.983 ± 0.006 | 0.977 ± 0.010 | 0.980 ± 0.003 | 202 |\n"}
+,{"stream_name":"stdout","time":13204.837911813,"data":"| Siam weed | 0.971 ± 0.007 | 0.988 ± 0.007 | 0.979 ± 0.005 | 215 |\n"}
+,{"stream_name":"stdout","time":13204.837914003,"data":"| Snake weed | 0.951 ± 0.021 | 0.946 ± 0.013 | 0.948 ± 0.004 | 204 |\n"}
+,{"stream_name":"stdout","time":13204.837920123,"data":"| Negative | 0.988 ± 0.003 | 0.979 ± 0.007 | 0.984 ± 0.002 | 1822 |\n"}
+,{"stream_name":"stdout","time":13204.837922483,"data":"\n"}
+,{"stream_name":"stdout","time":13204.837925973,"data":"Đã lưu kết quả vào eval_out/T00_final_*\n"}
+,{"stream_name":"stdout","time":13205.073802347,"data":"## Tự chấm RUBRIC mục I (đề xuất; giảng viên xác nhận)\n"}
+,{"stream_name":"stdout","time":13205.073827161,"data":"\n"}
+,{"stream_name":"stdout","time":13205.073831914,"data":"| Mã | Tiêu chí | Điểm | Tối đa | Chi tiết |\n"}
+,{"stream_name":"stdout","time":13205.073836163,"data":"|---|---|---|---|---|\n"}
+,{"stream_name":"stdout","time":13205.073839964,"data":"| I1 | Top-1 accuracy test | 7 | 7 | 97.78% (mean 3 seed) |\n"}
+,{"stream_name":"stdout","time":13205.073843739,"data":"| I2 | Macro-F1 cải thiện so với mốc | 4 | 5 | final 0.9715, mốc 0.9680, Δ=+0.0035, s=0.0012 |\n"}
+,{"stream_name":"stdout","time":13205.073847889,"data":"| I3 | Recall hai lớp khó | 4 | 4 | Chinee Apple 95.7% (mốc 88.5%), Snake Weed 95.9% (mốc 88.8%) |\n"}
+,{"stream_name":"stdout","time":13205.07385192,"data":"| I4a | ECE sau TS \u003c ECE trước | 1 | 1 | trước 0.0867, sau 0.0070 |\n"}
+,{"stream_name":"stdout","time":13205.073859892,"data":"| I4b | Chênh macro-F1 val/test \u003c= 0.02 | 1 | 1 | val 0.9720, test 0.9715, chênh 0.0005 |\n"}
+,{"stream_name":"stdout","time":13205.073862925,"data":"| I5 | Cấu hình thời gian thực | 2 | 2 | p95 = 14.5 ms (ngân sách 100 ms), đo đúng cách |\n"}
+,{"stream_name":"stdout","time":13205.073878,"data":"\n"}
+,{"stream_name":"stdout","time":13205.073882154,"data":"**Tổng các ý đã chấm: 19 / 20** (phần I tối đa 20).\n"}
+,{"stream_name":"stdout","time":13205.073887092,"data":"\n"}
+,{"stream_name":"stdout","time":13205.073890769,"data":"Ngưỡng điểm là TẠM THỜI (xem khối hằng số đầu file eval.py và RUBRIC.md mục I).\n"}
+,{"stream_name":"stdout","time":13207.608500776,"data":"           macro_f1                top1                 ece            \\\n"}
+,{"stream_name":"stdout","time":13207.608535401,"data":"               mean       std      mean       std      mean       std   \n"}
+,{"stream_name":"stdout","time":13207.608553473,"data":"exp_id                                                                  \n"}
+,{"stream_name":"stdout","time":13207.608558342,"data":"F01        0.971512  0.001189  0.977759  0.000754  0.007030  0.001104   \n"}
+,{"stream_name":"stdout","time":13207.608561911,"data":"T00_final  0.968003  0.000566  0.975002  0.001286  0.012743  0.001613   \n"}
+,{"stream_name":"stdout","time":13207.608565363,"data":"\n"}
+,{"stream_name":"stdout","time":13207.608568605,"data":"          balanced_acc            \n"}
+,{"stream_name":"stdout","time":13207.608571804,"data":"                  mean       std  \n"}
+,{"stream_name":"stdout","time":13207.608575023,"data":"exp_id                            \n"}
+,{"stream_name":"stdout","time":13207.608578335,"data":"F01           0.975905  0.002403  \n"}
+,{"stream_name":"stdout","time":13207.608585632,"data":"T00_final     0.971528  0.003931  \n"}
+,{"stream_name":"stdout","time":13207.613790679,"data":"ALL STAGES COMPLETE: results.xlsx, report.md, predictions/, curves/, eval_out/\n"}
+,{"stream_name":"stderr","time":13213.281137558,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":13213.28117082,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":13213.464261413,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":13213.46429337,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":13214.200555547,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":13214.398094904,"data":"[NbConvertApp] Writing 6295765 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":13216.796004338,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":13217.435506938,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":13217.435530247,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":13217.435797334,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":13217.437275301,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":13217.437727816,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":13217.437929568,"data":"[NbConvertApp] Writing 575505 bytes to __results__.html\n"}
+]

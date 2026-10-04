@@ -1,0 +1,145 @@
+{
+  "exp_id": "F01",
+  "seed": 2,
+  "fold": 0,
+  "backbone": "convnext_tiny",
+  "init": "finetune",
+  "drop_rate": 0.0,
+  "img_size": 224,
+  "aug": "basic",
+  "sampler": null,
+  "mix": null,
+  "mix_alpha": 1.0,
+  "loss": "ls",
+  "label_smoothing": 0.1,
+  "focal_gamma": 2.0,
+  "class_weight_beta": null,
+  "epochs": 12,
+  "batch_size": 64,
+  "lr_backbone": 0.0001,
+  "lr_head": 0.001,
+  "weight_decay": 0.05,
+  "warmup_epochs": 1.0,
+  "ema_decay": null,
+  "amp": true,
+  "num_workers": 2,
+  "images_dir": "/kaggle/input/datasets/ntthduong/k4-track4-day2-deepweeds-images",
+  "labels_dir": "/kaggle/input/notebooks/ntthduong/k4-track4-day2-deepweeds-lab/data/labels",
+  "out_dir": "runs",
+  "pred_dir": "predictions",
+  "curves_dir": "curves",
+  "save_test_predictions": false,
+  "pretrained": true,
+  "python": "3.13.15",
+  "torch": "2.11.0+cu128",
+  "timm": "1.0.29",
+  "pretrained_cfg": {
+    "url": "",
+    "hf_hub_id": "timm/convnext_tiny.in12k_ft_in1k",
+    "architecture": "convnext_tiny",
+    "tag": "in12k_ft_in1k",
+    "custom_load": false,
+    "input_size": [
+      3,
+      224,
+      224
+    ],
+    "test_input_size": [
+      3,
+      288,
+      288
+    ],
+    "fixed_input_size": false,
+    "interpolation": "bicubic",
+    "crop_pct": 0.95,
+    "test_crop_pct": 1.0,
+    "crop_mode": "center",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "num_classes": 1000,
+    "pool_size": [
+      7,
+      7
+    ],
+    "first_conv": "stem.0",
+    "classifier": "head.fc",
+    "license": "apache-2.0"
+  },
+  "data_cfg": {
+    "input_size": [
+      3,
+      224,
+      224
+    ],
+    "interpolation": "bicubic",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "crop_pct": 0.95,
+    "crop_mode": "center"
+  },
+  "split_checks": {
+    "n": {
+      "train": 10501,
+      "val": 3501,
+      "test": 3507
+    },
+    "per_class": {
+      "train": {
+        "0": 675,
+        "1": 637,
+        "2": 618,
+        "3": 613,
+        "4": 637,
+        "5": 605,
+        "6": 644,
+        "7": 609,
+        "8": 5463
+      },
+      "val": {
+        "0": 225,
+        "1": 213,
+        "2": 206,
+        "3": 204,
+        "4": 212,
+        "5": 202,
+        "6": 215,
+        "7": 203,
+        "8": 1821
+      },
+      "test": {
+        "0": 226,
+        "1": 213,
+        "2": 207,
+        "3": 205,
+        "4": 213,
+        "5": 202,
+        "6": 215,
+        "7": 204,
+        "8": 1822
+      }
+    },
+    "overlap": {
+      "train/val": 0,
+      "train/test": 0,
+      "val/test": 0
+    }
+  },
+  "device": "cuda",
+  "gmac_tool": "thop (attention ops may be incomplete)"
+}

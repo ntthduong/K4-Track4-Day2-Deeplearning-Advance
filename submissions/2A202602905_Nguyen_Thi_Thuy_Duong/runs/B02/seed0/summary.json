@@ -1,0 +1,13 @@
+{
+  "exp_id": "B02",
+  "backbone": "resnext50_32x4d",
+  "seed": 0,
+  "best_epoch": 10,
+  "macro_f1": 0.7958836358036612,
+  "top1": 0.8369037417880606,
+  "params_m": 22.998345,
+  "gmacs": 4.286154752,
+  "train_seconds": 957.1719373390001,
+  "seconds_per_epoch": 77.51723308841662,
+  "checkpoint": "runs/B02/seed0/best.pt"
+}

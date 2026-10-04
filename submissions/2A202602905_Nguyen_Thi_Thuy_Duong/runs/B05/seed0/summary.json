@@ -1,0 +1,13 @@
+{
+  "exp_id": "B05",
+  "backbone": "efficientnet_b0",
+  "seed": 0,
+  "best_epoch": 12,
+  "macro_f1": 0.7916780071586493,
+  "top1": 0.8434732933447586,
+  "params_m": 4.019077,
+  "gmacs": 0.384610272,
+  "train_seconds": 444.92624648200035,
+  "seconds_per_epoch": 35.966625005750075,
+  "checkpoint": "runs/B05/seed0/best.pt"
+}

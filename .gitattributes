@@ -1,0 +1,2 @@
+# Preserve submission file bytes so SHA256 evidence survives clone on Windows.
+submissions/2A202602905_Nguyen_Thi_Thuy_Duong/** -text

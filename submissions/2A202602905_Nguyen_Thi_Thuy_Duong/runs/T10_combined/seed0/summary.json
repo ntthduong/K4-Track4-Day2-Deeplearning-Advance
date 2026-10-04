@@ -1,0 +1,13 @@
+{
+  "exp_id": "T10_combined",
+  "backbone": "convnext_tiny",
+  "seed": 0,
+  "best_epoch": 12,
+  "macro_f1": 0.9654754210657042,
+  "top1": 0.9717223650385605,
+  "params_m": 27.827049,
+  "gmacs": 4.454808576,
+  "train_seconds": 928.716191689,
+  "seconds_per_epoch": 74.98637858941674,
+  "checkpoint": "runs/T10_combined/seed0/best.pt"
+}

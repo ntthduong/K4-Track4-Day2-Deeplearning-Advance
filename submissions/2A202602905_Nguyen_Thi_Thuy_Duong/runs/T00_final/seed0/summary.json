@@ -1,0 +1,14 @@
+{
+  "exp_id": "T00_final",
+  "backbone": "convnext_tiny",
+  "seed": 0,
+  "best_epoch": 11,
+  "macro_f1": 0.9649114427775474,
+  "top1": 0.9740074264495858,
+  "params_m": 27.827049,
+  "gmacs": 4.454808576,
+  "train_seconds": 865.8175909850002,
+  "seconds_per_epoch": 69.91047063666663,
+  "checkpoint": "runs/T00_final/seed0/best.pt",
+  "reused_from": "runs/T00/seed0"
+}

@@ -1,0 +1,9 @@
+numpy
+pandas
+Pillow
+matplotlib
+torch==2.11.0
+torchvision
+timm==1.0.29
+thop
+openpyxl

@@ -1,0 +1,13 @@
+{
+  "exp_id": "B04",
+  "backbone": "deit_small_patch16_224",
+  "seed": 0,
+  "best_epoch": 11,
+  "macro_f1": 0.953734687865577,
+  "top1": 0.9674378748928878,
+  "params_m": 21.669129,
+  "gmacs": 4.240838016,
+  "train_seconds": 608.9127157759999,
+  "seconds_per_epoch": 48.83066866333335,
+  "checkpoint": "runs/B04/seed0/best.pt"
+}

@@ -1,0 +1,13 @@
+{
+  "exp_id": "T01_scratch",
+  "backbone": "convnext_tiny",
+  "seed": 0,
+  "best_epoch": 12,
+  "macro_f1": 0.29528929687480265,
+  "top1": 0.5518423307626392,
+  "params_m": 27.827049,
+  "gmacs": 4.454808576,
+  "train_seconds": 1013.758011691,
+  "seconds_per_epoch": 82.22947092883335,
+  "checkpoint": "runs/T01_scratch/seed0/best.pt"
+}

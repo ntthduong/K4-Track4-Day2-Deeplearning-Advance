@@ -1,0 +1,13 @@
+{
+  "exp_id": "T08_weighted",
+  "backbone": "convnext_tiny",
+  "seed": 0,
+  "best_epoch": 11,
+  "macro_f1": 0.9631844087600769,
+  "top1": 0.9705798343330477,
+  "params_m": 27.827049,
+  "gmacs": 4.454808576,
+  "train_seconds": 842.9564407930002,
+  "seconds_per_epoch": 67.93069345291678,
+  "checkpoint": "runs/T08_weighted/seed0/best.pt"
+}

@@ -1,0 +1,203 @@
+{
+  "source_code_matches_notebook": {
+    "benchmark.py": true,
+    "dataset.py": true,
+    "eval.py": true,
+    "experiments.py": true,
+    "full_lab.py": true,
+    "inference.py": true,
+    "losses.py": true,
+    "model.py": true,
+    "test_core.py": true,
+    "train.py": true
+  },
+  "all_predictions": [
+    {
+      "file": "F01uncal_seed0_test.csv",
+      "n": 3507,
+      "valid": true
+    },
+    {
+      "file": "F01uncal_seed1_test.csv",
+      "n": 3507,
+      "valid": true
+    },
+    {
+      "file": "F01uncal_seed2_test.csv",
+      "n": 3507,
+      "valid": true
+    },
+    {
+      "file": "F01_seed0_test.csv",
+      "n": 3507,
+      "valid": true
+    },
+    {
+      "file": "F01_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "F01_seed1_test.csv",
+      "n": 3507,
+      "valid": true
+    },
+    {
+      "file": "F01_seed1_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "F01_seed2_test.csv",
+      "n": 3507,
+      "valid": true
+    },
+    {
+      "file": "F01_seed2_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "I00_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "I01_hflip_prob_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "I02_hflip_logit_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "I03_temperature_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "I04_fused_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "I05_fp16_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "T00_finaluncal_seed0_test.csv",
+      "n": 3507,
+      "valid": true
+    },
+    {
+      "file": "T00_finaluncal_seed1_test.csv",
+      "n": 3507,
+      "valid": true
+    },
+    {
+      "file": "T00_finaluncal_seed2_test.csv",
+      "n": 3507,
+      "valid": true
+    },
+    {
+      "file": "T00_final_seed0_test.csv",
+      "n": 3507,
+      "valid": true
+    },
+    {
+      "file": "T00_final_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "T00_final_seed1_test.csv",
+      "n": 3507,
+      "valid": true
+    },
+    {
+      "file": "T00_final_seed1_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "T00_final_seed2_test.csv",
+      "n": 3507,
+      "valid": true
+    },
+    {
+      "file": "T00_final_seed2_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "T01_scratch_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "T02_frozen_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "T03_color_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "T04_cutmix_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "T05_mixup_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "T06_ls_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "T07_focal_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "T08_weighted_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "T09_ema_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    },
+    {
+      "file": "T10_combined_seed0_val.csv",
+      "n": 3501,
+      "valid": true
+    }
+  ],
+  "split_counts": {
+    "train": 10501,
+    "val": 3501,
+    "test": 3507
+  },
+  "split_overlap_zero": true,
+  "xlsx_sheets": [
+    "Backbones",
+    "Training",
+    "Inference",
+    "Final",
+    "PerClass",
+    "Latency",
+    "Summary"
+  ],
+  "formula_cache_matches": true,
+  "official_eval_unchanged": true
+}
